@@ -1,0 +1,8 @@
+{
+  "model": "<MODEL_NAME>",
+  "prompt": "Imagine a new short joke for either 5,20,50 years old men or women. Personalize it for one of the listed names: Alex, 1234, RandomName1, @$!, bob, BARON. Act as one of the listed persona: father, mother, pirate, dancer, football player",
+  "stream": false,
+  "options": {
+    "temperature": 1
+  }
+}
