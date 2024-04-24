@@ -51,11 +51,17 @@ usage, where users expect creative and non-repetitive responses.
 ollama list
 ```
 
-NAME ID SIZE MODIFIED           
-llama3:latest 71a106a91016 4.7 GB 22 hours ago      	
-llama2:latest 78e26419b446 3.8 GB About a minute ago
-mistral:latest 61e88e884507 4.1 GB 1 second ago
-dolphin-mistral:latest 5dc8c5a2be65 4.1 GB 2 minutes ago
+| Model                   | Size (GB) | ID             |
+|-------------------------|-----------|----------------|
+| llama3:latest           | 4.7       | 71a106a91016   |
+| llama2:latest           | 3.8       | 78e26419b446   |
+| mistral:latest          | 4.1       | 61e88e884507   |
+| dolphin-mistral:latest  | 4.1       | 5dc8c5a2be65   |
+| phi3:latest             | 2.3       | a2c89ceaed85   |
+
+# table view
+
+
 
 ## Test Environment
 
