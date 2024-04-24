@@ -69,7 +69,7 @@ The tests were conducted on a local machine with the following specifications:
 verbosity=4
 requests=100
 concurrency=1
-models=("llama3" "llama2" "mistral" "dolphin-mistral")
+models=("phi3")
 
 for model in "${models[@]}"; do
     echo "Testing Model: $model"
@@ -89,13 +89,11 @@ Table of results:
 
 | Model             | Total Time (min)  | Mean time per request (s) | Total transferred (KB) |
 |-------------------|-------------------|---------------------------|------------------------|
+| phi3              | 5.05              | 4.1                       | 168                    |
 | llama 3           | 6.25              | 3.8                       | 171                    |
 | mistral           | 10.44             | 6.3                       | 241                    |
 | dolphin-mistral   | 10.43             | 6.2                       | 252                    |
 | llama 2           | 13.35             | 8.0                       | 306                    |
 
 # Conclusion
-llama3 model has the best performance in terms of requests per second and time per request, however the lower total transferred data might indicate that the model responses are shorter than the other models.
-
-
-
+Both the `phi3` and `llama3` models performed similarly, with the `phi3` model having a slightly higher mean time per request.
